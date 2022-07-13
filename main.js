@@ -18,7 +18,7 @@ document.getElementById("displayMenu").innerHTML = htmldata;
 
 function addItem(){
 var htmldata;
-var item=document.getElementById("addItem").value;
+var imgtags='<img id="im1" src="pizzaimg.png"/>'
 var item=document.getElementById("addItem").value;
 menuListArray.sort()
 for(var i = 0; i<menuListArray.length; i++){
